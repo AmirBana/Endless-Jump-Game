@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
 	#endregion singleton
 	public int score;
 	private GameObject world;
+	public bool generateSurface = false;
 	// Start is called before the first frame update
 	void Start()
 	{
@@ -37,6 +38,7 @@ public class GameManager : MonoBehaviour
 		if (playerPos > score)
 		{
 			score = playerPos;
+			generateSurface = true;
 		}
 	}
 }

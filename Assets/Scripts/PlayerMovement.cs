@@ -50,9 +50,11 @@ public class PlayerMovement : MonoBehaviour
 			if (hitInfo.collider.gameObject.CompareTag("Surface"))
 			{
 				block = hitInfo.collider.gameObject.transform;
-				playerCollider.isTrigger = false;
+				block.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
+				//playerCollider.isTrigger = false;
 				rb.velocity = new Vector2(rb.velocity.x, jumpForce);
 			}
+			block.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
 		}
 
 	}
