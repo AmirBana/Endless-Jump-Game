@@ -7,7 +7,7 @@ public class Generator : MonoBehaviour
 	[SerializeField] GameObject normalSurface;
 	[SerializeField] Transform surfaceHolder;
 	[SerializeField] float yBound = 2.4f;
-	[SerializeField] float minXBound = -3f, maxXBound = 3f;
+	[SerializeField] float minXBound = -2f, maxXBound = 2f;
 	private int pastScore;
 	// Start is called before the first frame update
 	void Start()
@@ -29,7 +29,6 @@ public class Generator : MonoBehaviour
 		for (int i = 0; i < amount; i++)
 		{
 			float xPos = Random.Range(minXBound, maxXBound);
-			//float yPos = Random.Range(transform.position.y, transform.position.y + yBound);
 			Vector2 spawnPos = new Vector2(xPos, transform.position.y);
 			Instantiate(normalSurface, spawnPos, normalSurface.transform.rotation, surfaceHolder);
 			transform.position = new Vector3(transform.position.x, transform.position.y + 0.8f, transform.position.z);

@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
 		// float xDir = worldPosition.x - transform.position.x;
 		float xDir = Input.GetAxisRaw("Horizontal");
 		rb.velocity = new Vector2(xDir * xSpeed, rb.velocity.y);
-		float xBound = 3.5f;
+		float xBound = 3.1f;
 		if (transform.position.x < -xBound || transform.position.x > xBound)
 		{
 			transform.position = new Vector2(Mathf.Clamp(transform.position.x * -1, -xBound + 0.2f, xBound - 0.2f), transform.position.y);
