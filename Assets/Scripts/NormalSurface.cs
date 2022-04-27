@@ -5,11 +5,13 @@ using UnityEngine;
 public class NormalSurface : MonoBehaviour
 {
 	[SerializeField] float jumpForce = 5f;
-	private void OnCollisionEnter2D(Collision2D other)
+	private float destroyPos;
+	private void Start()
 	{
-		if (other.gameObject.CompareTag("Player"))
-		{
-
-		}
+		destroyPos = GameObject.Find("Destroy Pos").transform.position.y;
+	}
+	private void Update()
+	{
+		if (transform.position.y < destroyPos) Destroy(gameObject);
 	}
 }
