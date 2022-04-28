@@ -1030,8 +1030,8 @@ MonoBehaviour:
   normalSurface: {fileID: 33517805514384257, guid: be5ec90aaaa4d2943a2c6784ef23958b, type: 3}
   surfaceHolder: {fileID: 1280712458}
   yBound: 2.4
-  minXBound: -3.2
-  maxXBound: 3.2
+  minXBound: -2
+  maxXBound: 2
 --- !u!1 &1971862438
 GameObject:
   m_ObjectHideFlags: 0

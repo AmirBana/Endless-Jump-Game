@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class GameManager : MonoBehaviour
 {
 	#region singleton
@@ -34,7 +33,7 @@ public class GameManager : MonoBehaviour
 	}
 	void ScoreManager()
 	{
-		int playerPos = Mathf.Abs(Mathf.RoundToInt(world.transform.transform.position.y) * 2);
+		int playerPos = Mathf.Abs(Mathf.RoundToInt(world.transform.transform.position.y));
 		if (playerPos > score)
 		{
 			score = playerPos;
