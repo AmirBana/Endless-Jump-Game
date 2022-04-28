@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
 	}
 	#endregion singleton
 	public int score;
+	public bool isGameStarted;
+	public bool isGameOver;
 	private GameObject world;
 	public bool generateSurface = false;
 	// Start is called before the first frame update
@@ -24,6 +26,8 @@ public class GameManager : MonoBehaviour
 	{
 		world = GameObject.Find("World");
 		score = 0;
+		isGameStarted = false;
+		isGameOver = false;
 	}
 
 	// Update is called once per frame
