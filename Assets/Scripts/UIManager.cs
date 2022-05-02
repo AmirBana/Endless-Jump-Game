@@ -10,6 +10,8 @@ public class UIManager : MonoBehaviour
 {
 	// Start is called before the first frame update
 	[SerializeField] TextMeshProUGUI scoreTxt;
+	[SerializeField] TextMeshProUGUI bestScoreTxt;
+	[SerializeField] TextMeshProUGUI currentScoreTxt;
 	[SerializeField] GameObject StartPanel;
 	[SerializeField] GameObject InGamePanel;
 	[SerializeField] GameObject EndPanel;
@@ -37,7 +39,7 @@ public class UIManager : MonoBehaviour
 	{
 		GameManager.Instance.isGameStarted = true;
 		StartPanel.SetActive(false);
-		InGamePanel.SetActive(false);
+		InGamePanel.SetActive(true);
 		playerMovement.GetComponent<BoxCollider2D>().isTrigger = true;
 		playerMovement.rb.velocity = new Vector2(playerMovement.rb.velocity.x, playerMovement.jumpForce);
 	}
@@ -45,10 +47,16 @@ public class UIManager : MonoBehaviour
 	{
 		InGamePanel.SetActive(false);
 		EndPanel.SetActive(true);
+		bestScoreTxt.text = GameManager.Instance.bestScore.ToString();
+		currentScoreTxt.text = GameManager.Instance.score.ToString();
 	}
 	public void FinishGame()
 	{
 		SceneManager.LoadScene(0);
+	}
+	public void ResetScore()
+	{
+		GameManager.Instance.ResetScore();
 	}
 	public void EXitGame()
 	{

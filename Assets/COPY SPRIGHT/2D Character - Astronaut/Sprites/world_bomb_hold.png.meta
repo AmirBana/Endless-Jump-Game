@@ -236,7 +236,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 130
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
@@ -301,1328 +301,1574 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bomb_hold_0
+      name: world_bomb_hold_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2592
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 172
+        y: 2736
+        width: 101
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fb310394358d1a00800000000000000
-      internalID: 728885175555013623
+      spriteID: 8262e35bbf3ed9643b740a5c6e0ad894
+      internalID: 96339954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_1
+      name: world_bomb_hold_1
       rect:
         serializedVersion: 2
-        x: 448
-        y: 2592
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 620
+        y: 2736
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20c0d0a7c7e7c92c0800000000000000
-      internalID: -4423521660895949822
+      spriteID: 00dd5694b0fead64aa369f4c6ff2dcca
+      internalID: 2098443287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_2
+      name: world_bomb_hold_2
       rect:
         serializedVersion: 2
-        x: 896
-        y: 2592
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1069
+        y: 2736
+        width: 99
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 230a7707a89f56790800000000000000
-      internalID: -7537344028346965966
+      spriteID: d28f5279f0625774db9993e1a23fe245
+      internalID: -676694083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_3
+      name: world_bomb_hold_3
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 2592
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1516
+        y: 2736
+        width: 100
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb28f966ac6ebde60800000000000000
-      internalID: 7988232121051218619
+      spriteID: d2bcf1b31f37ac1499db891dae8d5eba
+      internalID: -142411737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_4
+      name: world_bomb_hold_4
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 2592
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1965
+        y: 2735
+        width: 99
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 223605cec9226f190800000000000000
-      internalID: -7929112036564245726
+      spriteID: 90fda441d0da6e447b5747929329fb6c
+      internalID: -546527526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_5
+      name: world_bomb_hold_5
       rect:
         serializedVersion: 2
-        x: 2240
-        y: 2592
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2035
+        y: 2842
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e8eebd307ce6aa60800000000000000
-      internalID: 7685089780970744033
+      spriteID: 9013656c1a361b848b1d6f2a309e17a9
+      internalID: 969194959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_6
+      name: world_bomb_hold_6
       rect:
         serializedVersion: 2
-        x: 2688
-        y: 2592
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2412
+        y: 2734
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b543d25094ba795e0800000000000000
-      internalID: -1902863987432934309
+      spriteID: b9351fa92a2127b4fb2a7ce87804b188
+      internalID: -873102551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_7
+      name: world_bomb_hold_7
       rect:
         serializedVersion: 2
-        x: 3136
-        y: 2592
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2862
+        y: 2734
+        width: 98
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bc8eaffe442aa160800000000000000
-      internalID: 7037477289435499704
+      spriteID: ca585863602acc9489aa79689f977cef
+      internalID: -1607515109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_8
+      name: world_bomb_hold_8
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 2592
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3310
+        y: 2733
+        width: 98
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2bb7719e6b4d91c0800000000000000
-      internalID: -4495353914786858197
+      spriteID: c3ff8779fd60ab34a8386e25587849e2
+      internalID: -1259203428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_9
+      name: world_bomb_hold_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2160
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3759
+        y: 2733
+        width: 99
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6e9bdc90c75a58a0800000000000000
-      internalID: -6315639042656723349
+      spriteID: bf6e95a0545c73443917d92ae5824f8e
+      internalID: 1070240755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_10
+      name: world_bomb_hold_10
       rect:
         serializedVersion: 2
-        x: 448
-        y: 2160
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 175
+        y: 2301
+        width: 95
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91c8f16dac0b3c9d0800000000000000
-      internalID: -2755164161798337511
+      spriteID: f8d269ccdf0862441936129f922c32d1
+      internalID: 164177634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_11
+      name: world_bomb_hold_11
       rect:
         serializedVersion: 2
-        x: 896
-        y: 2160
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 623
+        y: 2302
+        width: 94
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a49537141abee61a0800000000000000
-      internalID: -6814250108344641206
+      spriteID: e182241d4d78acb4898a1beba7ab707b
+      internalID: 1311498864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_12
+      name: world_bomb_hold_12
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 2160
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 691
+        y: 2406
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa36cef141dbb25c0800000000000000
-      internalID: -4239086730106608726
+      spriteID: 9f0c84074d2d0c1479797796b39bc8e3
+      internalID: -1835806183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_13
+      name: world_bomb_hold_13
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 2160
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1068
+        y: 2302
+        width: 98
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c879bf802a44afc90800000000000000
-      internalID: -7135315196889032820
+      spriteID: 322bbf8ab00ddde4fafa8acd6fbf447f
+      internalID: -2047152223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_14
+      name: world_bomb_hold_14
       rect:
         serializedVersion: 2
-        x: 2240
-        y: 2160
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1519
+        y: 2302
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b5768c7dec7f17a0800000000000000
-      internalID: -6404262785659275854
+      spriteID: 5698221120def9446ae9c49bf34c6bb2
+      internalID: -590204846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_15
+      name: world_bomb_hold_15
       rect:
         serializedVersion: 2
-        x: 2688
-        y: 2160
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1967
+        y: 2302
+        width: 95
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d8fb4419d68c5f60800000000000000
-      internalID: 8024436902973929684
+      spriteID: c01b14e6e481e4e41a622a2884274f5b
+      internalID: -1055711929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_16
+      name: world_bomb_hold_16
       rect:
         serializedVersion: 2
-        x: 3136
-        y: 2160
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2415
+        y: 2302
+        width: 95
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 266e185d8679ced90800000000000000
-      internalID: -7067107238736697758
+      spriteID: 973830e3269329844aba0571b290f8ba
+      internalID: 1841393816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_17
+      name: world_bomb_hold_17
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 2160
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2862
+        y: 2303
+        width: 96
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18794766d58028000800000000000000
-      internalID: 36600944216283009
+      spriteID: 8ab3c39c0b92aab40aa8f8b604384cdb
+      internalID: 226690904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_18
+      name: world_bomb_hold_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1728
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3309
+        y: 2304
+        width: 99
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a523bda12e3443f40800000000000000
-      internalID: 5707261266177503834
+      spriteID: 68e65ea09af766a4f81001b2c8b435fc
+      internalID: -271201496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_19
+      name: world_bomb_hold_19
       rect:
         serializedVersion: 2
-        x: 448
-        y: 1728
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3379
+        y: 2410
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a86882abac1d11be0800000000000000
-      internalID: -1508193731555588470
+      spriteID: b7b20d613bee8ca46a748113c42ab250
+      internalID: -387572290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_20
+      name: world_bomb_hold_20
       rect:
         serializedVersion: 2
-        x: 896
-        y: 1728
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3756
+        y: 2304
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28cc31811f9dc62c0800000000000000
-      internalID: -4436931903352484734
+      spriteID: dd189cb9560664841aae3c92ef2fd559
+      internalID: -1141568937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_21
+      name: world_bomb_hold_21
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1728
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 173
+        y: 1872
+        width: 99
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d98c580f62b9ae30800000000000000
-      internalID: 4515336291367029200
+      spriteID: 5303667fd67a9c545b633f71f8c918cc
+      internalID: 1845131082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_22
+      name: world_bomb_hold_22
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 1728
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 620
+        y: 1872
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b164920fb07491bb0800000000000000
-      internalID: -4964858997599812069
+      spriteID: a289fa3549d7b6d43a7a7af0b5c34ae3
+      internalID: -759368670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_23
+      name: world_bomb_hold_23
       rect:
         serializedVersion: 2
-        x: 2240
-        y: 1728
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1068
+        y: 1872
+        width: 102
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21d89ae8704812270800000000000000
-      internalID: 8223999562548350226
+      spriteID: f40f3a073fcf5c743a744d8df611b35f
+      internalID: 234285080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_24
+      name: world_bomb_hold_24
       rect:
         serializedVersion: 2
-        x: 2688
-        y: 1728
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1473
+        y: 1878
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd86813bf2aee39a0800000000000000
-      internalID: -6251301742154585892
+      spriteID: 53479ee8823f27b43bd7863ed70d904b
+      internalID: 1644370051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_25
+      name: world_bomb_hold_25
       rect:
         serializedVersion: 2
-        x: 3136
-        y: 1728
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1922
+        y: 1882
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdfc038f15471cbb0800000000000000
-      internalID: -4917521422706749477
+      spriteID: 2bf84679c61dbd34e8960a06d93d4b1a
+      internalID: 1631709885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_26
+      name: world_bomb_hold_26
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 1728
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2370
+        y: 1882
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3135796122faebf80800000000000000
-      internalID: -8088835319768067309
+      spriteID: ca6742b4ac0e7804e9c4d598badc8598
+      internalID: -1675046069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_27
+      name: world_bomb_hold_27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1296
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2819
+        y: 1882
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b472400d289fe89d0800000000000000
-      internalID: -2770002380555278517
+      spriteID: 210572db54654c349a5793a1b771f9f9
+      internalID: 2026612025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_28
+      name: world_bomb_hold_28
       rect:
         serializedVersion: 2
-        x: 448
-        y: 1296
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3267
+        y: 1881
+        width: 98
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ebe704dd5e0539e0800000000000000
-      internalID: -1642390692954641432
+      spriteID: bb4b97d4783ca2749a4e6b65270483b5
+      internalID: -651571697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_29
+      name: world_bomb_hold_29
       rect:
         serializedVersion: 2
-        x: 896
-        y: 1296
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3337
+        y: 1988
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 706452f6bbbfd3d30800000000000000
-      internalID: 4412959992335123975
+      spriteID: a8b63234757ea0b48a73a17d3fc2ed72
+      internalID: 1017909590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_30
+      name: world_bomb_hold_30
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1296
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3714
+        y: 1880
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8e0040dae61c7e70800000000000000
-      internalID: 9114184943663058573
+      spriteID: ffdc735a7d05add43a04f1984fb78fa8
+      internalID: -2009689345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_31
+      name: world_bomb_hold_31
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 1296
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 132
+        y: 1448
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f60dc4c7e92ef9b0800000000000000
-      internalID: -5044548457192421643
+      spriteID: 60f7b0f8ec1c008488641535a221a4bf
+      internalID: -276053182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_32
+      name: world_bomb_hold_32
       rect:
         serializedVersion: 2
-        x: 2240
-        y: 1296
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 580
+        y: 1446
+        width: 96
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62ab11a0f5fe30ea0800000000000000
-      internalID: -5907615094710093274
+      spriteID: 474b429151ad9524588a6a4054d63274
+      internalID: 1092254109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_33
+      name: world_bomb_hold_33
       rect:
         serializedVersion: 2
-        x: 2688
-        y: 1296
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1026
+        y: 1447
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe1e45c893e8bd4a0800000000000000
-      internalID: -6567499253771083281
+      spriteID: ae0b73780fc905b43b40b5ff8d172ed3
+      internalID: -557636899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_34
+      name: world_bomb_hold_34
       rect:
         serializedVersion: 2
-        x: 3136
-        y: 1296
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1477
+        y: 1447
+        width: 94
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90ba3accd900bee40800000000000000
-      internalID: 5686639632228526857
+      spriteID: 3e29ce7e1c20dd84dbd38a62e5d04b46
+      internalID: -1989128503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_35
+      name: world_bomb_hold_35
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 1296
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1924
+        y: 1446
+        width: 98
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6da0ad1ec7cf79050800000000000000
-      internalID: 5807387857812851414
+      spriteID: 664ad8890b719fa43a7b084d5b2b7ed6
+      internalID: 159063636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_36
+      name: world_bomb_hold_36
       rect:
         serializedVersion: 2
-        x: 0
-        y: 864
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2373
+        y: 1448
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f773fdfdaa3d55030800000000000000
-      internalID: 3482922617694795647
+      spriteID: 38f8402125185b642b72091916078ede
+      internalID: -266505978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_37
+      name: world_bomb_hold_37
       rect:
         serializedVersion: 2
-        x: 448
-        y: 864
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2820
+        y: 1448
+        width: 96
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 910d7986d6e6b7200800000000000000
-      internalID: 178858026396536857
+      spriteID: fcacd2bd216211249a72e23b5de7eca7
+      internalID: -432023375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_38
+      name: world_bomb_hold_38
       rect:
         serializedVersion: 2
-        x: 896
-        y: 864
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3269
+        y: 1446
+        width: 97
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b94e1d0bb9c835e0800000000000000
-      internalID: -1929570635112101455
+      spriteID: f48dfd4140f81ea43aa502f7863c15bf
+      internalID: -1922108432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_39
+      name: world_bomb_hold_39
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 864
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3716
+        y: 1448
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a63a30065ea0bc100800000000000000
-      internalID: 129208994584830826
+      spriteID: 3edf5a5952e1a87439d4888bae1a03ec
+      internalID: -1338533761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_40
+      name: world_bomb_hold_40
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 864
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 132
+        y: 1017
+        width: 96
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 069bca510aa430330800000000000000
-      internalID: 3675863772283320672
+      spriteID: 9dae9ecca4f1cf44dbbe39bd7fd1c7f5
+      internalID: -1513550255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_41
+      name: world_bomb_hold_41
       rect:
         serializedVersion: 2
-        x: 2240
-        y: 864
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 201
+        y: 1123
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db845665c01321930800000000000000
-      internalID: 4112403338801531069
+      spriteID: 76851d0fad98a1f49b7c85535aa1e831
+      internalID: -56787615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_42
+      name: world_bomb_hold_42
       rect:
         serializedVersion: 2
-        x: 2688
-        y: 864
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 579
+        y: 1018
+        width: 99
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d2adb4ecd8faf760800000000000000
-      internalID: 7492574557698368209
+      spriteID: 88e0e72f39f5e3149974fcadc352212c
+      internalID: 662173138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_43
+      name: world_bomb_hold_43
       rect:
         serializedVersion: 2
-        x: 3136
-        y: 864
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 649
+        y: 1124
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 991deb9c5f7e26310800000000000000
-      internalID: 1396933877276004761
+      spriteID: 5f180bbe901bfa941811a634befedf26
+      internalID: -795974354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_44
+      name: world_bomb_hold_44
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 864
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1026
+        y: 1018
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70dd034e0220e60e0800000000000000
-      internalID: -2274878421484905209
+      spriteID: f2417dc2d8fcc28418b4e00f0c2f90c9
+      internalID: 355469163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_45
+      name: world_bomb_hold_45
       rect:
         serializedVersion: 2
-        x: 0
-        y: 432
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1474
+        y: 1018
+        width: 99
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f3ea6c013d80c900800000000000000
-      internalID: 702716783671043058
+      spriteID: 4cf9339b0ea7703448946a15e96aa80c
+      internalID: 51268126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_46
+      name: world_bomb_hold_46
       rect:
         serializedVersion: 2
-        x: 448
-        y: 432
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1922
+        y: 1018
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 395b2aa2de1942690800000000000000
-      internalID: -7627811421050194541
+      spriteID: cf4530ee3c50b8b4db7d6e2f9d249664
+      internalID: -473026497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_47
+      name: world_bomb_hold_47
       rect:
         serializedVersion: 2
-        x: 896
-        y: 432
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2370
+        y: 1018
+        width: 102
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10689585abe74cc30800000000000000
-      internalID: 4378764076522243585
+      spriteID: 2dbd051b97549794e8f357b802f1bff0
+      internalID: 1542648517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_48
+      name: world_bomb_hold_48
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 432
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2863
+        y: 1017
+        width: 100
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1f02aecb65811ff0800000000000000
-      internalID: -67125821359124710
+      spriteID: 409f196d9d6a50649b776a2a3650277b
+      internalID: 2040948755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_49
+      name: world_bomb_hold_49
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 432
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3310
+        y: 1017
+        width: 101
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63227f712af2f9340800000000000000
-      internalID: 4872665695071445558
+      spriteID: de45acc6d0d70de41adfe0b7d6436f38
+      internalID: -1173526532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_50
+      name: world_bomb_hold_50
       rect:
         serializedVersion: 2
-        x: 2240
-        y: 432
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3756
+        y: 1014
+        width: 102
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfce0dad09325b750800000000000000
-      internalID: 6319996757137747197
+      spriteID: 40581dc75173cc14aa99d998e1e8fd8c
+      internalID: -1733259963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_51
+      name: world_bomb_hold_51
       rect:
         serializedVersion: 2
-        x: 2688
-        y: 432
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 174
+        y: 585
+        width: 100
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac103a6fe53d47930800000000000000
-      internalID: 4140166362278592970
+      spriteID: e16fe267eec019d41b241563e0e462fe
+      internalID: -1437210837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_52
+      name: world_bomb_hold_52
       rect:
         serializedVersion: 2
-        x: 3136
-        y: 432
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 624
+        y: 585
+        width: 98
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c4deca024392d740800000000000000
-      internalID: 5175360833660572866
+      spriteID: 27f248500d07fc4448b14cef29af9dae
+      internalID: 1249776972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_53
+      name: world_bomb_hold_53
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 432
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 694
+        y: 692
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d4949a2ad6447f0800000000000000
-      internalID: -629257502532743842
+      spriteID: 671e5ab4e0e5ab44a92a1a7388b03e0a
+      internalID: -1283841750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_54
+      name: world_bomb_hold_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1072
+        y: 582
+        width: 98
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83eccad92eb43cf10800000000000000
-      internalID: 2288756472314383928
+      spriteID: e482e8b26c869be4ab85e662d7f9378d
+      internalID: -933927873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_55
+      name: world_bomb_hold_55
       rect:
         serializedVersion: 2
-        x: 448
-        y: 0
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1521
+        y: 583
+        width: 96
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e204577d51ebb8a10800000000000000
-      internalID: 1912831467767283758
+      spriteID: 79c298946a4f2a54ca94526b42ccc93f
+      internalID: 1103117541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_56
+      name: world_bomb_hold_56
       rect:
         serializedVersion: 2
-        x: 896
-        y: 0
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 1968
+        y: 583
+        width: 96
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c79093322fed0250800000000000000
-      internalID: 5912644815980369862
+      spriteID: 078467750165e8947973b75309f4e3ff
+      internalID: 1572203611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_57
+      name: world_bomb_hold_57
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 0
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2416
+        y: 583
+        width: 98
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feac55ea8c2b42e00800000000000000
-      internalID: 1019135990680636143
+      spriteID: 63f4f088192c19b47b6225cdb470d66c
+      internalID: -185277681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_58
+      name: world_bomb_hold_58
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 0
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 2865
+        y: 582
+        width: 95
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4d262d54318be940800000000000000
-      internalID: 5326493046196809038
+      spriteID: 33ee24649d61f7c49b6ebb50c9c5001a
+      internalID: 1814736287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_59
+      name: world_bomb_hold_59
       rect:
         serializedVersion: 2
-        x: 2240
-        y: 0
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3314
+        y: 583
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91ec22bdf20c25630800000000000000
-      internalID: 3914402337910869529
+      spriteID: 592802bceb187bc4a92ae4467e29eb70
+      internalID: 500128194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_60
+      name: world_bomb_hold_60
       rect:
         serializedVersion: 2
-        x: 2688
-        y: 0
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3382
+        y: 688
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86fcaefa668a98550800000000000000
-      internalID: 6163642724024766312
+      spriteID: 9b79fd38d231f72408397a55c362a62a
+      internalID: -56752716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_61
+      name: world_bomb_hold_61
       rect:
         serializedVersion: 2
-        x: 3136
-        y: 0
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 3762
+        y: 582
+        width: 94
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7071582545a7f040800000000000000
-      internalID: 4681392054122672254
+      spriteID: 9b4ba1dd523b0ff4fba292c1756e4ee4
+      internalID: -1236351324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb_hold_62
+      name: world_bomb_hold_62
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 0
-        width: 448
-        height: 432
-      alignment: 9
-      pivot: {x: 0.5, y: 0.295}
+        x: 178
+        y: 151
+        width: 94
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e641f6db495f83d0800000000000000
-      internalID: -3202242627773577501
+      spriteID: 7f663af0c9dff0e4cb312b300d756026
+      internalID: -1854445317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_bomb_hold_63
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 151
+        width: 95
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbea01c82c9b1f4e9e03c038294f3b7
+      internalID: -719465363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_bomb_hold_64
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 150
+        width: 98
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc18aa7c496398744a0353d10cd0a438
+      internalID: -1044718017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_bomb_hold_65
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 152
+        width: 96
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9abd5d60b4d4bd459b9b297e32b55b0
+      internalID: 1890025563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_bomb_hold_66
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 258
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572227e4b1af94f4b8dced3fa1781f4b
+      internalID: 403375695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_bomb_hold_67
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 153
+        width: 98
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e890064faa06e40a5e282f5967182a
+      internalID: 118180346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_bomb_hold_68
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 260
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51164d45a12091e4499456b2fddf769d
+      internalID: 1409326336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_bomb_hold_69
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 153
+        width: 98
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc08c45fbbe8fe748ac33fb45877eb9b
+      internalID: 817765407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_bomb_hold_70
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 150
+        width: 102
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db001a484db9ed40a6e179064220770
+      internalID: -740217741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_bomb_hold_71
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 150
+        width: 101
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22166597a23c7194894a8a0dae8e97a7
+      internalID: -612898878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_bomb_hold_72
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 150
+        width: 102
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4c75b0616dbdd4c8cf357dd624add2
+      internalID: 1851446735
       vertices: []
       indices: 
       edges: []
@@ -1638,69 +1884,79 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bomb_hold_51: 4140166362278592970
-      bomb_hold_16: -7067107238736697758
-      bomb_hold_22: -4964858997599812069
-      bomb_hold_24: -6251301742154585892
-      bomb_hold_9: -6315639042656723349
-      bomb_hold_47: 4378764076522243585
-      bomb_hold_57: 1019135990680636143
-      bomb_hold_14: -6404262785659275854
-      bomb_hold_15: 8024436902973929684
-      bomb_hold_18: 5707261266177503834
-      bomb_hold_4: -7929112036564245726
-      bomb_hold_36: 3482922617694795647
-      bomb_hold_23: 8223999562548350226
-      bomb_hold_62: -3202242627773577501
-      bomb_hold_31: -5044548457192421643
-      bomb_hold_44: -2274878421484905209
-      bomb_hold_55: 1912831467767283758
-      bomb_hold_37: 178858026396536857
-      bomb_hold_13: -7135315196889032820
-      bomb_hold_19: -1508193731555588470
-      bomb_hold_58: 5326493046196809038
-      bomb_hold_42: 7492574557698368209
-      bomb_hold_52: 5175360833660572866
-      bomb_hold_34: 5686639632228526857
-      bomb_hold_21: 4515336291367029200
-      bomb_hold_39: 129208994584830826
-      bomb_hold_11: -6814250108344641206
-      bomb_hold_26: -8088835319768067309
-      bomb_hold_7: 7037477289435499704
-      bomb_hold_1: -4423521660895949822
-      bomb_hold_6: -1902863987432934309
-      bomb_hold_28: -1642390692954641432
-      bomb_hold_56: 5912644815980369862
-      bomb_hold_29: 4412959992335123975
-      bomb_hold_59: 3914402337910869529
-      bomb_hold_30: 9114184943663058573
-      bomb_hold_8: -4495353914786858197
-      bomb_hold_2: -7537344028346965966
-      bomb_hold_40: 3675863772283320672
-      bomb_hold_50: 6319996757137747197
-      bomb_hold_5: 7685089780970744033
-      bomb_hold_53: -629257502532743842
-      bomb_hold_46: -7627811421050194541
-      bomb_hold_3: 7988232121051218619
-      bomb_hold_17: 36600944216283009
-      bomb_hold_27: -2770002380555278517
-      bomb_hold_25: -4917521422706749477
-      bomb_hold_49: 4872665695071445558
-      bomb_hold_33: -6567499253771083281
-      bomb_hold_54: 2288756472314383928
-      bomb_hold_35: 5807387857812851414
-      bomb_hold_20: -4436931903352484734
-      bomb_hold_10: -2755164161798337511
-      bomb_hold_38: -1929570635112101455
-      bomb_hold_41: 4112403338801531069
-      bomb_hold_48: -67125821359124710
-      bomb_hold_61: 4681392054122672254
-      bomb_hold_12: -4239086730106608726
-      bomb_hold_32: -5907615094710093274
-      bomb_hold_45: 702716783671043058
-      bomb_hold_60: 6163642724024766312
-      bomb_hold_43: 1396933877276004761
-      bomb_hold_0: 728885175555013623
+      world_bomb_hold_8: -1259203428
+      world_bomb_hold_30: -2009689345
+      world_bomb_hold_34: -1989128503
+      world_bomb_hold_29: 1017909590
+      world_bomb_hold_23: 234285080
+      world_bomb_hold_1: 2098443287
+      world_bomb_hold_20: -1141568937
+      world_bomb_hold_35: 159063636
+      world_bomb_hold_22: -759368670
+      world_bomb_hold_62: -1854445317
+      world_bomb_hold_10: 164177634
+      world_bomb_hold_21: 1845131082
+      world_bomb_hold_63: -719465363
+      world_bomb_hold_32: 1092254109
+      world_bomb_hold_40: -1513550255
+      world_bomb_hold_49: -1173526532
+      world_bomb_hold_24: 1644370051
+      world_bomb_hold_54: -933927873
+      world_bomb_hold_17: 226690904
+      world_bomb_hold_14: -590204846
+      world_bomb_hold_70: -740217741
+      world_bomb_hold_2: -676694083
+      world_bomb_hold_31: -276053182
+      world_bomb_hold_47: 1542648517
+      world_bomb_hold_18: -271201496
+      world_bomb_hold_46: -473026497
+      world_bomb_hold_4: -546527526
+      world_bomb_hold_56: 1572203611
+      world_bomb_hold_9: 1070240755
+      world_bomb_hold_52: 1249776972
+      world_bomb_hold_69: 817765407
+      world_bomb_hold_28: -651571697
+      world_bomb_hold_27: 2026612025
+      world_bomb_hold_72: 1851446735
+      world_bomb_hold_19: -387572290
+      world_bomb_hold_68: 1409326336
+      world_bomb_hold_6: -873102551
+      world_bomb_hold_36: -266505978
+      world_bomb_hold_71: -612898878
+      world_bomb_hold_50: -1733259963
+      world_bomb_hold_38: -1922108432
+      world_bomb_hold_44: 355469163
+      world_bomb_hold_57: -185277681
+      world_bomb_hold_3: -142411737
+      world_bomb_hold_42: 662173138
+      world_bomb_hold_61: -1236351324
+      world_bomb_hold_67: 118180346
+      world_bomb_hold_64: -1044718017
+      world_bomb_hold_51: -1437210837
+      world_bomb_hold_33: -557636899
+      world_bomb_hold_66: 403375695
+      world_bomb_hold_12: -1835806183
+      world_bomb_hold_16: 1841393816
+      world_bomb_hold_55: 1103117541
+      world_bomb_hold_39: -1338533761
+      world_bomb_hold_48: 2040948755
+      world_bomb_hold_58: 1814736287
+      world_bomb_hold_37: -432023375
+      world_bomb_hold_0: 96339954
+      world_bomb_hold_15: -1055711929
+      world_bomb_hold_41: -56787615
+      world_bomb_hold_26: -1675046069
+      world_bomb_hold_43: -795974354
+      world_bomb_hold_5: 969194959
+      world_bomb_hold_13: -2047152223
+      world_bomb_hold_45: 51268126
+      world_bomb_hold_53: -1283841750
+      world_bomb_hold_60: -56752716
+      world_bomb_hold_11: 1311498864
+      world_bomb_hold_59: 500128194
+      world_bomb_hold_65: 1890025563
+      world_bomb_hold_7: -1607515109
+      world_bomb_hold_25: 1631709885
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

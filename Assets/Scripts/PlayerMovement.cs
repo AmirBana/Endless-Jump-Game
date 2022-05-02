@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 	private BoxCollider2D playerCollider;
 	private bool isTriggered = false;
 	private float deathPos;
-	private float xSpeed = 10f;
+	public float xSpeed = 10f;
 	public float yRayOffset = -2f;
 	public float jumpForce = 7f;
 	public Transform block;
@@ -28,15 +28,18 @@ public class PlayerMovement : MonoBehaviour
 		{
 			HorizontalMovement();
 			TriggerCheckerAndJump();
-			DeathCheck();
+			if (transform.position.y < deathPos)
+			{
+				Death();
+			}
+
 		}
 	}
 	private void HorizontalMovement()
 	{
-		// Vector2 screenPosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-		// Vector2 worldPosition = Camera.main.ScreenToWorldPoint(screenPosition);
-		// float xDir = worldPosition.x - transform.position.x;
-		float xDir = Input.GetAxisRaw("Horizontal");
+		//float xDir = Input.GetAxisRaw("Horizontal");
+		float xDir = Input.acceleration.x;
+		Debug.Log(xDir + "");
 		rb.velocity = new Vector2(xDir * xSpeed, rb.velocity.y);
 		float xBound = 3.1f;
 		if (transform.position.x < -xBound || transform.position.x > xBound)
@@ -56,16 +59,22 @@ public class PlayerMovement : MonoBehaviour
 				block = hitInfo.collider.gameObject.transform;
 				block.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
 				rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+				block.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
 			}
-			block.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+			else if (hitInfo.collider.gameObject.CompareTag("Bomb"))
+			{
+				hitInfo.collider.gameObject.SetActive(false);
+				GameManager.Instance.isGameOver = true;
+				rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+				Invoke("Death", 2f);
+			}
 		}
 
 	}
-	private void DeathCheck()
+	private void Death()
 	{
-		if (transform.position.y < deathPos)
-		{
-			GameManager.Instance.isGameOver = true;
-		}
+		GameManager.Instance.isGameOver = true;
+		GameManager.Instance.ScoreCheck();
+
 	}
 }
