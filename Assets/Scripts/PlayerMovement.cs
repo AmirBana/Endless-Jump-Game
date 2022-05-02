@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
 	public float yRayOffset = -2f;
 	public float jumpForce = 7f;
 	public Transform block;
+	public GameObject explosionAnim;
 	void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
@@ -63,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
 			}
 			else if (hitInfo.collider.gameObject.CompareTag("Bomb"))
 			{
+				Instantiate(explosionAnim, transform.position, explosionAnim.transform.rotation);
 				hitInfo.collider.gameObject.SetActive(false);
 				GameManager.Instance.isGameOver = true;
 				rb.velocity = new Vector2(rb.velocity.x, jumpForce);

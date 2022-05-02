@@ -3300,6 +3300,10 @@ PrefabInstance:
       propertyPath: yRayOffset
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5016399361541063162, guid: 0c756dccffb5bff43bb976d81dc59594, type: 3}
+      propertyPath: explosionAnim
+      value: 
+      objectReference: {fileID: 3601379709935043900, guid: e930403c7687f434495dc19a97cef23c, type: 3}
     - target: {fileID: 8494234693235340944, guid: 0c756dccffb5bff43bb976d81dc59594, type: 3}
       propertyPath: m_Mass
       value: 0.46520746
